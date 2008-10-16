@@ -1,0 +1,255 @@
+<html><head>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+
+var mirrors = {
+	'kambing': ["Universitas Indonesia (kambing.ui.edu)", "http://kambing.ui.edu/ubuntu/"],
+	'foss-id': ["FOSS-ID (dl2.foss-id.web.id)", "http://dl2.foss-id.web.id/ubuntu/"],
+	'ugm':     ["Universitas Gadjah Mada (repo.ugm.ac.id)", "http://repo.ugm.ac.id/ubuntu/"],
+	'cbn':     ["UGM (ubuntu.cbn.net.id)", "http://ubuntu.cbn.net.id/Ubuntu/"],
+	'komo':    ["Si Komo (komo.vlsm.org)", "http://komo.vlsm.org/ubuntu/"],
+	'indika':  ["IndikaNet (ubuntu.indika.net.id)", "http://ubuntu.indika.net.id/"],
+	'itb':     ["Institut Teknologi Bandung (ftp.itb.ac.id)", "ftp://ftp.itb.ac.id/pub/ubuntu/"],
+	'its':     ["Institut Teknologi Sepuluh Nopember (mirror.its.ac.id)", "http://mirror.its.ac.id/ubuntu/"],
+	'buaya':   ["Buaya (buaya.klas.or.id)", "http://buaya.klas.or.id/ubuntu/"],
+	'jaran':   ["Universitas Diponegoro (jaran.undip.ac.id)", "http://jaran.undip.ac.id/ubuntu/"],
+};
+
+var dists = {
+	'dapper':   ["6.06", "Dapper Drake"],
+	'edgy':     ["6.10", "Edgy Eft"],
+	'feisty':   ["7.04", "Feisty Fawn"],
+	'gutsy':    ["7.10", "Gutsy Gibbon"],
+	'hardy':    ["8.04", "Hardy Heron"],
+	'intrepid': ["8.10", "Intrepid Ibex"]
+};
+var dist_default = "hardy";
+
+$(document).ready(function() {
+	$('#mirror').change(function() {
+		if ($(this).val() == "+lainlain") {
+			$('#mirror-etc').show();
+			$('#mirror-etc input').select();
+		}
+		else {
+			$('#mirror-etc').hide();
+		}
+	});
+
+	/*
+	 * Mirrors
+	 */
+	var selected = null;
+	var keys = []
+	for (var key in mirrors) {
+		keys.push(key);
+	}
+	keys.sort(function(a, b) { 
+		if (mirrors[a] < mirrors[b]) { return -1; }
+		else if (mirrors[a] > mirrors[b]) { return 1; }
+		else { return 0; }
+	});
+
+	var i;
+	var key;
+	for (i=0; i<keys.length; i++) {
+		key = keys[i];
+		if (selected == null) { selected = key; }
+		var val = mirrors[key];
+		$('#mirror option[value="+lainlain"]').before("<option value='"+key+"'>"+val[0]+"</option>");
+	}
+	$('#mirror').val(keys[0]);
+
+	/*
+	 * Releases
+	 */
+	selected = null;
+	for (var key in dists) {
+		if (selected == null) { selected = key; }
+		var val = dists[key];
+
+		selected = "";
+		if (key == dist_default) {
+			selected = " selected='selected'";
+		}
+
+		$('#dist').append("<option value='"+key+"'"+selected+">Ubuntu "+val[0]+" - "+val[1]+"</option>");
+	}
+});
+
+function errorComponent() {
+	$('#component').addClass('error');
+	$('#error').html("Harap pilih salah satu komponen yang ada.");
+}
+
+function resetError() {
+	$('#error').html("");
+	$('#component').removeClass('error');
+}
+
+function buat() {
+	$('#sourceslist').hide();
+
+	/*
+	 * Input
+	 */
+	var dist = $('#dist').val();
+
+	var components = [];
+	$('#component input[type="checkbox"]:checked').each(function() {
+		components.push($(this).val());
+	});
+	if (components.length == 0) {
+		errorComponent();
+		return;
+	}
+	resetError();
+
+	var repositories = [''];
+	$('#extra input[type="checkbox"]:checked').each(function() {
+		repositories.push($(this).val());
+	});
+
+	var url;
+	var mirror = $('#mirror').val();
+	if (mirror == "+lainlain") {
+		url = $('#mirror-etc input').val();
+	}
+	else {
+		url = mirrors[mirror][1];
+	}
+
+	var source = $('#source')[0].checked;
+
+	/*
+	 * Output
+	 */
+
+	var out = "";
+	var i, j, k;
+	for (i=0; i<repositories.length; i++) {
+		var extra = repositories[i];
+		if (extra != "") { extra = '-' + extra; }
+
+		out += "deb " + url + " " + dist + extra + " " + components.join(" ") + "\n";
+
+		if (source) {
+			out += "deb-src " + url + " " + dist + extra + " " + components.join(" ") + "\n";
+		}
+
+		if (i < repositories.length-1) {
+			out += "\n";
+		}
+	}
+
+	$('#sourceslist pre code').text(out);
+
+	$('#sourceslist').show();
+}
+
+</script>
+<style type="text/css">
+body {
+	margin: 0px;
+	font-family: "trebuchet ms", sans-serif;
+	font-size: 12pt;
+}
+#c {
+	margin: 30px;
+	width: 800px;
+}
+
+h1 {
+	font-size: 20pt;
+}
+h2 {
+	font-size: 16pt;
+}
+
+ul, p {
+	line-height: 20pt;
+}
+
+form label {
+	float: left;
+	margin-left: -200px;
+}
+form > div {
+	margin: 0 0 10px 200px;
+}
+form ul {
+	padding-left: 0;
+	list-style: none;
+}
+#mirror-etc input {
+	width: 400px;
+	display: block;
+	margin-top: 5px;
+}
+#mirror-etc p {
+	margin: 0 0 5px 0;
+}
+
+.error {
+	background: #FCC;
+}
+#error {
+	color: red;
+}
+
+pre {
+	border: 1px solid #ccc;
+	background: #eee;
+	padding: 10px;
+}
+
+form {
+	margin-bottom: 50px;
+}
+
+</style>
+</head><body><div id="c">
+
+<h1>Pembuat sources.list</h1>
+
+<form>
+<div><label for="dist">Rilis</label>
+	<select id="dist" name="dist">
+	</select></div>
+<div><label>Komponen</label>
+	<ul id="component">
+	<li><input type="checkbox" name="c-main" value="main" checked="checked">Main</input> - Perangkat lunak bebas dan didukung oleh Ubuntu</li>
+	<li><input type="checkbox" name="c-restricted" value="restricted" checked="checked">Restricted</input> - Perangkat lunak tidak bebas namun didukung oleh Ubuntu</li>
+	<li><input type="checkbox" name="c-universe" value="universe">Universe</input> - Perangkat lunak bebas dengan dukungan dari komunitas</li>
+	<li><input type="checkbox" name="c-multiverse" value="multiverse">Multiverse</input> - Perangkat lunak bebas dengan dukungan dari komunitas</li>
+	</ul></div>
+<div><label>Repositori kode sumber</label>
+	<input type="checkbox" name="source" id="source" value="source">Masukkan repositori kode sumber</input></div>
+<div><label>Repositori tambahan</label>
+	<ul id="extra">
+	<li><input type="checkbox" name="e-updates" value="updates">Updates</input> - Berisi paket-paket perbaikan yang direkomendasikan</li>
+	<li><input type="checkbox" name="e-security" value="updates">Security</input> - Berisi paket-paket perbaikan yang bersifat sangat penting</li>
+	</ul></div>
+<div><label for="mirror">Cermin repositori</label>
+	<select id="mirror" name="mirror">
+	<option value='+lainlain'>Lainnya..</option>
+	</select>
+	<div id='mirror-etc' style='display: none'>
+		<p><input type='text' name='mirror-etc' value='http://kambing.ui.edu/ubuntu/'/></p>
+		<p>Contoh: <strong>http://kambing.ui.edu/ubuntu/</strong></p>
+	</div></div>
+<div><input type="button" onclick="buat()" value="Buat isi sources.list"/></div>
+<div><p id="error"></p></div>
+</form>
+
+<div id="sourceslist" style="display:none">
+	<h2>Isi sources.list</h2>
+	<p>Berikut ini adalah isi berkas <code>/etc/apt/sources.list</code> yang dapat Anda gunakan:</p>
+	<pre><code></code></pre>
+	<p>Perhatian: setiap cermin diasumsikan memiliki repositori Ubuntu yang lengkap. Jika Anda
+	menemukan masalah seperti <em>File not found</em>, ada kemungkinan cermin yang Anda pilih
+	tidak berisi repositori yang Anda inginkan. Silakan hubungi administrator cermin yang 
+	bersangkutan untuk informasi lebih lanjut.</p>
+</div>
+
+</div></body></html>
