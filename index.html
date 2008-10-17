@@ -57,6 +57,7 @@ var dists = {
 var dist_default = "hardy";
 
 $(document).ready(function() {
+
 	$('#mirror').change(function() {
 		if ($(this).val() == "+lainlain") {
 			$('#mirror-etc').show();
@@ -239,6 +240,25 @@ pre {
 form {
 	margin-bottom: 50px;
 }
+
+#footer {
+	font-size: 8pt;
+	font-family: verdana, sans-serif;
+	border-top: 1px solid black;
+	margin-top: 100px;
+	padding-top: 5px;
+}
+#footer p {
+	margin: 0px;
+	line-height: 12pt;
+}
+a {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	color: red
+}
 -->
 </style>
 </head><body><div id="c">
@@ -284,6 +304,12 @@ form {
 	menemukan masalah seperti <em>File not found</em>, ada kemungkinan cermin yang Anda pilih
 	tidak berisi repositori yang Anda inginkan. Silakan hubungi administrator cermin yang 
 	bersangkutan untuk informasi lebih lanjut.</p>
+</div>
+
+<div id="footer">
+	<p>Hak Cipta &copy; 2008 <a href="http://fajran.web.id">Fajran Iman Rusadi</a> - <a href="http://www.ubuntu-id.org">Komunitas Ubuntu Indonesia</a>.</p>
+	<p>Aplikasi ini dirilis di bawah <a href="http://www.opensource.org/licenses/mit-license.php">Lisensi MIT</a>. Repositori kode terdapat di <a href="http://github.com/fajran/pembuat-sourceslist">http://github.com/fajran/pembuat-sourceslist</a>.</p>
+	<p>Jalankan sendiri aplikasi ini di komputer Anda dengan mengunduh berkas <a href="index.html">index.html</a> dan <a href="jquery.js">jquery.js</a>.</p>
 </div>
 
 </div></body></html>
