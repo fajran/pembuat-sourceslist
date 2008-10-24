@@ -1,0 +1,111 @@
+body {
+	font-family: "trebuchet ms", sans-serif;
+	margin: 30px;
+	padding: 0px;
+}
+#c {
+}
+
+h1 {
+	margin: 0px;
+}
+
+#form {
+	margin-top: 20px;
+}
+
+#form > div {
+	margin-bottom: 15px;
+}
+
+#form > div {
+	margin-left: 200px;
+}
+#form > div label {
+	float: left;
+	margin-left: -200px;
+}
+
+#form ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+#form ul li {
+	margin: 0px;
+}
+
+#mirrors > p {
+	margin: 0 0 10px 80px;
+}
+#mirrors > p span.label {
+	float: left;
+	margin-left: -80px;
+}
+
+#footer {
+	font-size: 10px;
+	font-family: verdana, sans-serif;
+	border-top: 1px solid #888;
+	margin-top: 100px;
+	padding-top: 5px;
+}
+#footer p {
+	margin: 0px;
+}
+#footer a {
+	color: blue;
+	text-decoration: none;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#overlay {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+#overlay .loading {
+	float: right;
+	background: #A00;
+	padding: 2px 5px;
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+	color: white;
+}
+
+#release, #country, #provider {
+	min-width: 250px;
+}
+#protocol {
+	min-width: 100px;
+}
+
+#sourceslist {
+	margin-top: 50px;
+}
+#sourceslist pre {
+	padding: 20px;
+	background: #eee;
+	border: 1px solid #888;
+	line-height: 20px;
+	margin-top: 30px;
+}
+code {
+	font-size: 16px;
+	background: #eee;
+	padding: 5px;
+	border: 1px solid #888;
+	white-space: nowrap;
+}
+
+pre code {
+	border: 0px;
+	padding: 0px;
+	white-space: pre;
+}
+
