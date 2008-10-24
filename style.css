@@ -109,3 +109,13 @@ pre code {
 	white-space: pre;
 }
 
+#othermirror {
+	width: 300px;
+}
+span.othermirror {
+	font-size: 12px;
+}
+span.othermirror strong {
+	cursor: pointer;
+}
+
