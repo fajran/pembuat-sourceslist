@@ -1,47 +1,69 @@
 {
-	dist: "Ubuntu",
-	releases: [
-		{ ver: "6.06", name: "Dapper Drake", code: "dapper" },
-		{ ver: "6.10", name: "Edgy Eft", code: "edgy" },
-		{ ver: "7.04", name: "Feisty Fawn", code: "feisty" },
-		{ ver: "7.10", name: "Gutsy Gibbon", code: "gutsy" },
-		{ ver: "8.04", name: "Hardy Heron", code: "hardy", latest: 1 },
-		{ ver: "8.10", name: "Intrepid Ibex", code: "intrepid" }
-	],
-	mirrors_data: "data/mirrors.json",
-
-	main_mirrors: {
-		http: "http://archive.ubuntu.com/ubuntu/",
-		ftp: "ftp://archive.ubuntu.com/ubuntu/"
-	},
-
-	components: {
-		'main': {
-			label: "Main - Free software and supported by Ubuntu",
-			selected: 1
-		},
-		'universe': {
-			label: "Restricted - Non-free software but supported by Ubuntu",
-			selected: 1
-		},
-		'multiverse': {
-			label: "Universe - Free software and supported by community",
-			selected: 1
-		},
-		'restricted': {
-			label: "Multiverse - Non-free software and supported by community",
-			selected: 1
-		},
-	},
-
-	extra: {
-		'updates': {
-			label: "Recommended updates",
-			selected: 1
-		},
-		'security': {
-			label: "Security/critical updates",
-			selected: 1
-		}
-	},
+    "dist": "Ubuntu",
+    "releases": [
+        {
+            "ver": "6.06",
+            "name": "Dapper Drake",
+            "code": "dapper" 
+        },
+        {
+            "ver": "6.10",
+            "name": "Edgy Eft",
+            "code": "edgy" 
+        },
+        {
+            "ver": "7.04",
+            "name": "Feisty Fawn",
+            "code": "feisty" 
+        },
+        {
+            "ver": "7.10",
+            "name": "Gutsy Gibbon",
+            "code": "gutsy" 
+        },
+        {
+            "ver": "8.04",
+            "name": "Hardy Heron",
+            "code": "hardy",
+            "selected": 1 
+        },
+        {
+            "ver": "8.10",
+            "name": "Intrepid Ibex",
+            "code": "intrepid" 
+        }
+    ],
+    "mirrors_data": "data/mirrors.json",
+    "main_mirrors": {
+        "http": "http://archive.ubuntu.com/ubuntu/",
+        "ftp": "ftp://archive.ubuntu.com/ubuntu/"
+    },
+    "components": {
+        "main": {
+            "label": "Main - Free software and supported by Ubuntu",
+            "selected": 1
+        },
+        "universe": {
+            "label": "Restricted - Non-free software but supported by Ubuntu",
+            "selected": 1
+        },
+        "multiverse": {
+            "label": "Universe - Free software and supported by community",
+            "selected": 1
+        },
+        "restricted": {
+            "label": "Multiverse - Non-free software and supported by community",
+            "selected": 1
+        }
+    },
+    "extra": {
+        "updates": {
+            "label": "Recommended updates",
+            "selected": 1
+        },
+        "security": {
+            "label": "Security/critical updates",
+            "selected": 1
+        }
+    }
 }

@@ -89,8 +89,8 @@ function loadMirrors() {
 	$('#country').append('<optgroup label="Countries"></optgroup>');
 	var cc = $('#country').find('optgroup');
 
-	$.each(mirrors.mirrors, function(k, val) {
-		cc.append("<option value='"+val.country+"'>"+val.country+"</option>");
+	$.each(mirrors.mirrors, function(key, val) {
+		cc.append("<option value='"+key+"'>"+key+"</option>");
 	});
 	updateProviders();
 
@@ -137,25 +137,16 @@ function updateProviders() {
 		$('#othermirror').select();
 	}
 
-	// FIXME
-	var i, len = mirrors.mirrors.length;
-	for (i=0; i<len; i++) {
-		if (mirrors.mirrors[i].country == country) {
-			mcountry = mirrors.mirrors[i];
-			break;
-		}
-	}
+	mcountry = mirrors.mirrors[country];
 
 	$('#provider').empty();
-	$.each(mcountry.mirrors, function(k, val) {
-		var name = val.name;
+	$.each(mcountry.mirrors, function(key, val) {
 		var url = val.mirrors.http;
 		if (url == undefined) {
 			url = val.mirrors.ftp;
 		}
-		$('#provider').append("<option value='"+name+"'>"+name+"</option>");
+		$('#provider').append("<option value='"+key+"'>"+key+"</option>");
 	});
-	mprovider = mcountry.mirrors[0];
 
 	updateProtocols();
 
@@ -165,16 +156,8 @@ function updateProtocols(data) {
 	
 	if (data == undefined) {
 		var name = $('#provider').val();
-
-		// FIXME
-		var i, len = mcountry.mirrors.length;
-		for (i=0; i<len; i++) {
-			if (mcountry.mirrors[i].name == name) {
-				mprovider = mcountry.mirrors[i];
-				data = mprovider.mirrors;
-				break;
-			}
-		}
+		mprovider = mcountry.mirrors[name];
+		data = mprovider.mirrors;
 	}
 
 	$('#protocol').empty();

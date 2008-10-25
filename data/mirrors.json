@@ -1,2199 +1,1864 @@
 {
-    "mirrors": [
-        {
-            "country": "Australia",
-            "mirrors": [
-                {
-                    "name": "iiNet",
+    "mirrors": {
+        "Australia": {
+            "mirrors": {
+                "iiNet": {
                     "mirrors": {
                         "http": "http://ftp.iinet.net.au/pub/ubuntu/",
                         "ftp": "ftp://ftp.iinet.net.au/pub/ubuntu",
                         "rsync": "rsync://ftp.iinet.net.au/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Netspace Online Systems",
+                "Netspace Online Systems": {
                     "mirrors": {
                         "http": "http://ftp.netspace.net.au/pub/ubuntu/",
                         "ftp": "ftp://ftp.netspace.net.au/pub/ubuntu/"
                     } 
                 },
-                {
-                    "name": "AARNet Pty Ltd",
+                "AARNet Pty Ltd": {
                     "mirrors": {
                         "http": "http://mirror.aarnet.edu.au/pub/ubuntu/archive/",
                         "ftp": "ftp://mirror.aarnet.edu.au/pub/ubuntu/archive/",
                         "rsync": "rsync://mirror.aarnet.edu.au/ubuntu/archive/"
                     } 
                 },
-                {
-                    "name": "Internode",
+                "Internode": {
                     "mirrors": {
                         "http": "http://mirror.internode.on.net/pub/ubuntu/ubuntu/",
                         "ftp": "ftp://mirror.internode.on.net/pub/ubuntu/ubuntu/",
                         "rsync": "rsync://mirror.internode.on.net/ubuntu/"
                     } 
                 },
-                {
-                    "name": "3FL / Westnet",
+                "3FL / Westnet": {
                     "mirrors": {
                         "http": "http://mirror.3fl.net.au/ubuntu/",
                         "ftp": "ftp://mirror.3fl.net.au/pub/ubuntu/archive/",
                         "rsync": "rsync://mirror.3fl.net.au/ubuntu/archive/"
                     } 
                 },
-                {
-                    "name": "Optus.net",
+                "Optus.net": {
                     "mirrors": {
                         "http": "http://mirror.optus.net/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Mirror-pacific-net-au",
+                "Mirror-pacific-net-au": {
                     "mirrors": {
                         "http": "http://mirror.pacific.net.au/linux/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Austria",
-            "mirrors": [
-                {
-                    "name": "Inode Telekommunikationsdienstleistungs GmbH",
+        "Austria": {
+            "mirrors": {
+                "Inode Telekommunikationsdienstleistungs GmbH": {
                     "mirrors": {
                         "http": "http://ubuntu.inode.at/ubuntu/",
                         "ftp": "ftp://ubuntu.inode.at/ubuntu/",
                         "rsync": "rsync://ubuntu.inode.at/ubuntu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "lagis Internet Serviceprovider GmbH",
+                "lagis Internet Serviceprovider GmbH": {
                     "mirrors": {
                         "http": "http://ubuntu.lagis.at/ubuntu/",
                         "ftp": "ftp://ubuntu.lagis.at/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Klagenfurt",
+                "University of Klagenfurt": {
                     "mirrors": {
                         "http": "http://ubuntu.uni-klu.ac.at/ubuntu/",
                         "ftp": "ftp://ubuntu.uni-klu.ac.at/linux/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Gd-tuwien-ac-at",
+                "Gd-tuwien-ac-at": {
                     "mirrors": {
                         "http": "http://gd.tuwien.ac.at/opsys/linux/ubuntu/archive/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Belarus",
-            "mirrors": [
-                {
-                    "name": "linux.org.by mirror",
+        "Belarus": {
+            "mirrors": {
+                "linux.org.by mirror": {
                     "mirrors": {
                         "http": "http://linux.org.by/ubuntu/",
                         "ftp": "ftp://linux.org.by/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Belgium",
-            "mirrors": [
-                {
-                    "name": "BELNET",
+        "Belgium": {
+            "mirrors": {
+                "BELNET": {
                     "mirrors": {
                         "http": "http://ftp.belnet.be/mirror/ubuntu.com/ubuntu/",
                         "ftp": "ftp://ftp.belnet.be/mirror/ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Infogroep",
+                "Infogroep": {
                     "mirrors": {
                         "http": "http://gaosu.rave.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ubuntu-mirrors-skynet-be",
+                "Ubuntu-mirrors-skynet-be": {
                     "mirrors": {
                         "http": "http://ubuntu.mirrors.skynet.be/pub/ubuntu.com/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Bosnia and Herzegovina",
-            "mirrors": [
-                {
-                    "name": "BiHnet ISP, BH Telecom",
+        "Bosnia and Herzegovina": {
+            "mirrors": {
+                "BiHnet ISP, BH Telecom": {
                     "mirrors": {
                         "http": "http://archive.ubuntu.com.ba/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Botswana",
-            "mirrors": [
-                {
-                    "name": "TENET",
+        "Botswana": {
+            "mirrors": {
+                "TENET": {
                     "mirrors": {
                         "http": "http://bw.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://bw.archive.ubuntu.com/ubuntu",
                         "rsync": "rsync://bw.releases.ubuntu.com/ubuntu-archive/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Brazil",
-            "mirrors": [
-                {
-                    "name": "Globo.com",
+        "Brazil": {
+            "mirrors": {
+                "Globo.com": {
                     "mirrors": {
                         "http": "http://mirror.globo.com/ubuntu/archive/"
                     } 
                 },
-                {
-                    "name": "C3SL/UFPR",
+                "C3SL/UFPR": {
                     "mirrors": {
                         "http": "http://br.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://br.archive.ubuntu.com/ubuntu",
                         "rsync": "rsync://br.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Sao Paulo",
+                "University of Sao Paulo": {
                     "mirrors": {
                         "http": "http://sft.if.usp.br/ubuntu/",
                         "ftp": "ftp://sft.if.usp.br/ubuntu/",
                         "rsync": "rsync://sft.if.usp.br:/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Edugraf - INE - CTC - UFSC",
+                "Edugraf - INE - CTC - UFSC": {
                     "mirrors": {
                         "http": "http://espelhos.edugraf.ufsc.br/ubuntu/"
                     } 
                 },
-                {
-                    "name": "LAS-IC-Unicamp",
+                "LAS-IC-Unicamp": {
                     "mirrors": {
                         "http": "http://www.las.ic.unicamp.br/pub/ubuntu/",
                         "ftp": "ftp://ftp.las.ic.unicamp.br/pub/ubuntu/",
                         "rsync": "rsync://rsync.las.ic.unicamp.br/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Interlegis",
+                "Interlegis": {
                     "mirrors": {
                         "http": "http://ubuntu.interlegis.gov.br/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Bulgaria",
-            "mirrors": [
-                {
-                    "name": "IPACCT",
+        "Bulgaria": {
+            "mirrors": {
+                "IPACCT": {
                     "mirrors": {
                         "http": "http://ubuntu.ipacct.com/ubuntu/",
                         "ftp": "ftp://ubuntu.ipacct.com/ubuntu/",
                         "rsync": "rsync://ubuntu.ipacct.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Linux-BG.org",
+                "Linux-BG.org": {
                     "mirrors": {
                         "http": "http://ubuntu.linux-bg.org/ubuntu/",
                         "ftp": "ftp://ubuntu.linux-bg.org/ubuntu/",
                         "rsync": "rsync://ubuntu.linux-bg.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "hitsol.net",
+                "hitsol.net": {
                     "mirrors": {
                         "http": "http://mirrors.hitsol.net/ubuntu/",
                         "ftp": "ftp://mirrors.hitsol.net/ubuntu/",
                         "rsync": "rsync://mirrors.hitsol.net/ubuntu/"
                     } 
                 },
-                {
-                    "name": "hitsol.net",
+                "hitsol.net": {
                     "mirrors": {
                         "http": "http://ubuntu.hitsol.net/ubuntu/",
                         "ftp": "ftp://ubuntu.hitsol.net/ubuntu/",
                         "rsync": "rsync://ubuntu.hitsol.net/ubuntu/"
                     } 
                 },
-                {
-                    "name": "nano-box by botevgrad.com",
+                "nano-box by botevgrad.com": {
                     "mirrors": {
                         "http": "http://ubuntu.nano-box.net/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Canada",
-            "mirrors": [
-                {
-                    "name": "Gulus",
+        "Canada": {
+            "mirrors": {
+                "Gulus": {
                     "mirrors": {
                         "http": "http://gulus.usherbrooke.ca/ubuntu/",
                         "ftp": "ftp://gulus.usherbrooke.ca/ubuntu/",
                         "rsync": "rsync://gulus.usherbrooke.ca/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Waterloo Computer Science Club",
+                "University of Waterloo Computer Science Club": {
                     "mirrors": {
                         "http": "http://mirror.csclub.uwaterloo.ca/ubuntu/",
                         "ftp": "ftp://mirror.csclub.uwaterloo.ca/ubuntu/",
                         "rsync": "rsync://mirror.csclub.uwaterloo.ca/ubuntu/"
                     } 
                 },
-                {
-                    "name": "iWeb Technologies Inc.",
+                "iWeb Technologies Inc.": {
                     "mirrors": {
                         "http": "http://ubuntu.mirror.iweb.ca/",
                         "ftp": "ftp://ubuntu.mirror.iweb.ca/",
                         "rsync": "rsync://ubuntu.mirror.iweb.ca/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Portafixe",
+                "Portafixe": {
                     "mirrors": {
                         "http": "http://mirrors.portafixe.com/ubuntu/archive/",
                         "ftp": "ftp://mirrors.portafixe.com/ubuntu/archive/"
                     } 
                 },
-                {
-                    "name": "Savoir-faire Linux",
+                "Savoir-faire Linux": {
                     "mirrors": {
                         "http": "http://gpl.savoirfairelinux.net/pub/mirrors/ubuntu/",
                         "ftp": "ftp://gpl.savoirfairelinux.net/pub/mirrors/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Department of Computer Science, University of Calgary",
+                "Department of Computer Science, University of Calgary": {
                     "mirrors": {
                         "http": "http://mirror.cpsc.ucalgary.ca/mirror/ubuntu.com/packages/",
                         "ftp": "ftp://mirror.cpsc.ucalgary.ca/mirror/ubuntu.com/packages/",
                         "rsync": "rsync://mirror.cpsc.ucalgary.ca/mirror/ubuntu.com/packages/"
                     } 
                 },
-                {
-                    "name": "Ftp-cs-mun-ca",
+                "Ftp-cs-mun-ca": {
                     "mirrors": {
                         "ftp": "ftp://ftp.cs.mun.ca/pub/mirror/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ubuntu-mirror-rafal-ca",
+                "Ubuntu-mirror-rafal-ca": {
                     "mirrors": {
                         "http": "http://ubuntu.mirror.rafal.ca/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Chile",
-            "mirrors": [
-                {
-                    "name": "TECNOERA",
+        "Chile": {
+            "mirrors": {
+                "TECNOERA": {
                     "mirrors": {
                         "http": "http://ftp.tecnoera.com/ubuntu/",
                         "ftp": "ftp://ftp.tecnoera.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Departamento de Fisica, Universidad de Chile",
+                "Departamento de Fisica, Universidad de Chile": {
                     "mirrors": {
                         "http": "http://cl.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://cl.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://cl.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Escuela de Ing. Informática - PUCV",
+                "Escuela de Ing. Informática - PUCV": {
                     "mirrors": {
                         "http": "http://mirror.gnucv.cl/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "China",
-            "mirrors": [
-                {
-                    "name": "cn99",
+        "China": {
+            "mirrors": {
+                "cn99": {
                     "mirrors": {
                         "http": "http://ubuntu.cn99.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "rootguide.org",
+                "rootguide.org": {
                     "mirrors": {
                         "http": "http://mirror.rootguide.org/ubuntu/",
                         "ftp": "ftp://mirror.rootguide.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ubuntu@UESTC",
+                "Ubuntu@UESTC": {
                     "mirrors": {
                         "http": "http://ubuntu.dormforce.net/ubuntu/",
                         "rsync": "rsync://ubuntu.dormforce.net/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Mirror-lupaworld-com",
+                "Mirror-lupaworld-com": {
                     "mirrors": {
                         "http": "http://mirror.lupaworld.com/ubuntu/archive/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Costa Rica",
-            "mirrors": [
-                {
-                    "name": "Ftp-ucr-ac-cr",
+        "Costa Rica": {
+            "mirrors": {
+                "Ftp-ucr-ac-cr": {
                     "mirrors": {
                         "http": "http://ftp.ucr.ac.cr/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Croatia",
-            "mirrors": [
-                {
-                    "name": "Faculty of civil engineering, Zagreb",
+        "Croatia": {
+            "mirrors": {
+                "Faculty of civil engineering, Zagreb": {
                     "mirrors": {
                         "http": "http://hr.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://hr.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://hr.archive.ubuntu.com/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Cyprus",
-            "mirrors": [
-                {
-                    "name": "Cytanet",
+        "Cyprus": {
+            "mirrors": {
+                "Cytanet": {
                     "mirrors": {
                         "http": "http://mirrors.cytanet.com.cy/linux/ubuntu/archive/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Czech Republic",
-            "mirrors": [
-                {
-                    "name": "UPC ¿eská republika, a.s.",
+        "Czech Republic": {
+            "mirrors": {
+                "UPC ¿eská republika, a.s.": {
                     "mirrors": {
                         "http": "http://archive.ubuntu.mirror.dkm.cz/ubuntu/",
                         "ftp": "ftp://archive.ubuntu.mirror.dkm.cz/ubuntu/",
                         "rsync": "rsync://ubuntu.mirror.dkm.cz/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Cesnet, z.s.p.o.",
+                "Cesnet, z.s.p.o.": {
                     "mirrors": {
                         "http": "http://cz.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://cz.archive.ubuntu.com/MIRRORS/archive.ubuntu.com/mirror/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Czech Technical University Prague",
+                "Czech Technical University Prague": {
                     "mirrors": {
                         "http": "http://ftp.cvut.cz/ubuntu/",
                         "ftp": "ftp://ftp.cvut.cz/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ignum, s.r.o.",
+                "Ignum, s.r.o.": {
                     "mirrors": {
                         "http": "http://ucho.ignum.cz/ubuntu/",
                         "ftp": "ftp://ucho.ignum.cz/ubuntu/",
                         "rsync": "rsync://ucho.ignum.cz/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Advokatni kancelar Kindl&Partneri",
+                "Advokatni kancelar Kindl&Partneri": {
                     "mirrors": {
                         "http": "http://ubuntu.supp.name/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ubuntu-sh-cvut-cz",
+                "Ubuntu-sh-cvut-cz": {
                     "mirrors": {
                         "http": "http://ubuntu.sh.cvut.cz/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Denmark",
-            "mirrors": [
-                {
-                    "name": "UNI-C",
+        "Denmark": {
+            "mirrors": {
+                "UNI-C": {
                     "mirrors": {
                         "http": "http://dk.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "KLID",
+                "KLID": {
                     "mirrors": {
                         "http": "http://ftp.klid.dk/ftp/ubuntu/",
                         "ftp": "ftp://ftp.klid.dk/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Mirror-uni-c-dk",
+                "Mirror-uni-c-dk": {
                     "mirrors": {
                         "http": "http://mirror.uni-c.dk/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Estonia",
-            "mirrors": [
-                {
-                    "name": "Elion Enterprises Ltd",
+        "Estonia": {
+            "mirrors": {
+                "Elion Enterprises Ltd": {
                     "mirrors": {
                         "http": "http://ftp.estpak.ee/ubuntu/",
                         "ftp": "ftp://ftp.estpak.ee/ubuntu/",
                         "rsync": "rsync://ftp.estpak.ee/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Finland",
-            "mirrors": [
-                {
-                    "name": "CSC / Funet",
+        "Finland": {
+            "mirrors": {
+                "CSC / Funet": {
                     "mirrors": {
                         "http": "http://www.nic.funet.fi/pub/mirrors/archive.ubuntu.com/",
                         "ftp": "ftp://ftp.funet.fi/pub/mirrors/archive.ubuntu.com/",
                         "rsync": "rsync://rsync.nic.funet.fi/ftp/pub/mirrors/archive.ubuntu.com/"
                     } 
                 },
-                {
-                    "name": "Mirrors-nic-funet-fi",
+                "Mirrors-nic-funet-fi": {
                     "mirrors": {
                         "http": "http://mirrors.nic.funet.fi/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "France",
-            "mirrors": [
-                {
-                    "name": "Free",
+        "France": {
+            "mirrors": {
+                "Free": {
                     "mirrors": {
                         "http": "http://ubuntu-archive.mirrors.proxad.net/ubuntu/",
                         "ftp": "ftp://ubuntu-archive.mirrors.proxad.net/mirrors/ftp.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Fondation d'entreprise Free",
+                "Fondation d'entreprise Free": {
                     "mirrors": {
                         "http": "http://ftp.free.org/mirrors/archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://ftp.free.org/mirrors/archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://ftp.free.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "CRIHAN",
+                "CRIHAN": {
                     "mirrors": {
                         "http": "http://ftp.crihan.fr/ubuntu/",
                         "ftp": "ftp://ftp.crihan.fr/ubuntu/",
                         "rsync": "rsync://ftp.crihan.fr/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Orange Business Services",
+                "Orange Business Services": {
                     "mirrors": {
                         "http": "http://ftp.oleane.net/ubuntu/",
                         "ftp": "ftp://ftp.oleane.net/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Université de Nantes",
+                "Université de Nantes": {
                     "mirrors": {
                         "http": "http://ubuntu.univ-nantes.fr/ubuntu/",
                         "ftp": "ftp://ubuntu.univ-nantes.fr/ubuntu/",
                         "rsync": "rsync://ubuntu.univ-nantes.fr/ubuntu/"
                     } 
                 },
-                {
-                    "name": "CIRIL",
+                "CIRIL": {
                     "mirrors": {
                         "http": "http://wwwftp.ciril.fr/pub/linux/ubuntu/archives/",
                         "ftp": "ftp://ftp.ciril.fr/pub/linux/ubuntu/archives/",
                         "rsync": "rsync://ftp.ciril.fr/pub/linux/ubuntu/archives/"
                     } 
                 },
-                {
-                    "name": "Florian Entreprise",
+                "Florian Entreprise": {
                     "mirrors": {
                         "http": "http://archive.monubuntu.fr/"
                     } 
                 },
-                {
-                    "name": "Université de Picardie",
+                "Université de Picardie": {
                     "mirrors": {
                         "http": "http://ftp.u-picardie.fr/mirror/ubuntu/ubuntu/",
                         "ftp": "ftp://ftp.u-picardie.fr/mirror/ubuntu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "OVH",
+                "OVH": {
                     "mirrors": {
                         "http": "http://mir1.ovh.net/ubuntu/",
                         "ftp": "ftp://mir1.ovh.net/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Universite Reims Champagne-Ardenne",
+                "Universite Reims Champagne-Ardenne": {
                     "mirrors": {
                         "http": "http://ubuntu.univ-reims.fr/ubuntu/",
                         "ftp": "ftp://ubuntu.univ-reims.fr/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "French Polynesia",
-            "mirrors": [
-                {
-                    "name": "LoLiTa",
+        "French Polynesia": {
+            "mirrors": {
+                "LoLiTa": {
                     "mirrors": {
                         "http": "http://pf.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://pf.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://pf.archive.ubuntu.com/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Georgia",
-            "mirrors": [
-                {
-                    "name": "Open Consultants",
+        "Georgia": {
+            "mirrors": {
+                "Open Consultants": {
                     "mirrors": {
                         "http": "http://ubuntu.eriders.ge/ubuntu/",
                         "ftp": "ftp://ubuntu.eriders.ge/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Germany",
-            "mirrors": [
-                {
-                    "name": "De-archive-ubuntu-com",
+        "Germany": {
+            "mirrors": {
+                "De-archive-ubuntu-com": {
                     "mirrors": {
                         "http": "http://de.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://de.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Esslingen University of Applied Sciences",
+                "Esslingen University of Applied Sciences": {
                     "mirrors": {
                         "http": "http://ftp-stud.hs-esslingen.de/ubuntu/",
                         "ftp": "ftp://ftp-stud.hs-esslingen.de/ubuntu/",
                         "rsync": "rsync://ftp-stud.hs-esslingen.de/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Kaiserslautern",
+                "University of Kaiserslautern": {
                     "mirrors": {
                         "http": "http://ftp.uni-kl.de/pub/linux/ubuntu/",
                         "ftp": "ftp://ftp.uni-kl.de/pub/linux/ubuntu/",
                         "rsync": "rsync://ftp.uni-kl.de/pub/linux/ubuntu/"
                     } 
                 },
-                {
-                    "name": "intergenia AG",
+                "intergenia AG": {
                     "mirrors": {
                         "http": "http://ubuntu.intergenia.de/ubuntu/",
                         "rsync": "rsync://ubuntu.intergenia.de/ubuntu-linux/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Cable & Wireless",
+                "Cable & Wireless": {
                     "mirrors": {
                         "http": "http://ftp.cw.net/ubuntu/",
                         "ftp": "ftp://ftp.cw.net/pub/linux/ftp.ubuntu.com/ubuntu/",
                         "rsync": "rsync://ftp.cw.net/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Univerity of Muensters",
+                "Univerity of Muensters": {
                     "mirrors": {
                         "http": "http://ftp.uni-muenster.de/pub/mirrors/ftp.ubuntu.com/ubuntu/",
                         "ftp": "ftp://ftp.uni-muenster.de/pub/mirrors/ftp.ubuntu.com/ubuntu/",
                         "rsync": "rsync://ftp.uni-muenster.de/ubuntu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Freie Universität Berlin",
+                "Freie Universität Berlin": {
                     "mirrors": {
                         "ftp": "ftp://ftp.fu-berlin.de/linux/ubuntu/"
                     } 
                 },
-                {
-                    "name": "RRZN, Leibniz Universität Hannover",
+                "RRZN, Leibniz Universität Hannover": {
                     "mirrors": {
                         "ftp": "ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu"
                     } 
                 },
-                {
-                    "name": "RRZN",
+                "RRZN": {
                     "mirrors": {
                         "ftp": "ftp://ftp.rrzn.uni-hannover.de/pub/mirror/linux/ubuntu/"
                     } 
                 },
-                {
-                    "name": "StudNet Bonn",
+                "StudNet Bonn": {
                     "mirrors": {
                         "http": "http://ftp.stw-bonn.de/ubuntu/",
                         "ftp": "ftp://ftp.stw-bonn.de/ubuntu/",
                         "rsync": "rsync://ftp.stw-bonn.de/ubuntu/"
                     } 
                 },
-                {
-                    "name": "GWDG",
+                "GWDG": {
                     "mirrors": {
                         "http": "http://ftp5.gwdg.de/pub/linux/debian/ubuntu/",
                         "ftp": "ftp://ftp5.gwdg.de/pub/linux/debian/ubuntu/",
                         "rsync": "rsync://ftp5.gwdg.de/pub/linux/debian/ubuntu/"
                     } 
                 },
-                {
-                    "name": "SunSITE.RWTH-Aachen.de",
+                "SunSITE.RWTH-Aachen.de": {
                     "mirrors": {
                         "http": "http://sunsite.informatik.rwth-aachen.de/ftp/pub/Linux/ubuntu/ubuntu/",
                         "ftp": "ftp://sunsite.informatik.rwth-aachen.de/pub/linux/ubuntu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Mannheim",
+                "University of Mannheim": {
                     "mirrors": {
                         "http": "http://swtsrv.informatik.uni-mannheim.de/pub/linux/distributions/ubuntu/",
                         "ftp": "ftp://swtsrv.informatik.uni-mannheim.de/pub/linux/distributions/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Applied Sciences Wolfenbuettel",
+                "University of Applied Sciences Wolfenbuettel": {
                     "mirrors": {
                         "http": "http://archive.ubuntu.uasw.edu/",
                         "ftp": "ftp://ftp.uasw.edu/linux/ubuntu/archive/",
                         "rsync": "rsync://ftp.uasw.edu/ftp/linux/ubuntu/archive/"
                     } 
                 },
-                {
-                    "name": "Host Europe",
+                "Host Europe": {
                     "mirrors": {
                         "http": "http://ftp.hosteurope.de/mirror/archive.ubuntu.com/",
                         "ftp": "ftp://ftp.hosteurope.de/mirror/archive.ubuntu.com/"
                     } 
                 },
-                {
-                    "name": "wff-gaming.de",
+                "wff-gaming.de": {
                     "mirrors": {
                         "http": "http://mirror.wff-gaming.de/ubuntu/",
                         "ftp": "ftp://mirror.wff-gaming.de/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ftp-stud-fht-esslingen-de",
+                "Ftp-stud-fht-esslingen-de": {
                     "mirrors": {
                         "http": "http://ftp-stud.fht-esslingen.de/Mirrors/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ftp-tu-chemnitz-de",
+                "Ftp-tu-chemnitz-de": {
                     "mirrors": {
                         "http": "http://ftp.tu-chemnitz.de/pub/linux/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Snert-mi-hs-heilbronn-de",
+                "Snert-mi-hs-heilbronn-de": {
                     "mirrors": {
                         "http": "http://snert.mi.hs-heilbronn.de/pub/ubuntu/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Greece",
-            "mirrors": [
-                {
-                    "name": "University of Crete",
+        "Greece": {
+            "mirrors": {
+                "University of Crete": {
                     "mirrors": {
                         "http": "http://ftp.cc.uoc.gr/mirrors/linux/ubuntu/packages/",
                         "ftp": "ftp://ftp.cc.uoc.gr/mirrors/linux/ubuntu/packages/"
                     } 
                 },
-                {
-                    "name": "Democritus University of Thrace",
+                "Democritus University of Thrace": {
                     "mirrors": {
                         "http": "http://ftp.duth.gr/pub/ubuntu/",
                         "ftp": "ftp://ftp.duth.gr/pub/ubuntu/",
                         "rsync": "rsync://ftp.duth.gr/ubuntu/"
                     } 
                 },
-                {
-                    "name": "National Technical University of Athens",
+                "National Technical University of Athens": {
                     "mirrors": {
                         "http": "http://ftp.ntua.gr/pub/linux/ubuntu/",
                         "ftp": "ftp://ftp.ntua.gr/pub/linux/ubuntu/"
                     } 
                 },
-                {
-                    "name": "National Technical University of Athens",
+                "National Technical University of Athens": {
                     "mirrors": {
                         "http": "http://gr.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://gr.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "OTENET",
+                "OTENET": {
                     "mirrors": {
                         "http": "http://ubuntu.otenet.gr/",
                         "ftp": "ftp://ftp.otenet.gr/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Hong Kong",
-            "mirrors": [
-                {
-                    "name": "Hostrino",
+        "Hong Kong": {
+            "mirrors": {
+                "Hostrino": {
                     "mirrors": {
                         "http": "http://ftp.hostrino.com/pub/ubuntu/archive/",
                         "ftp": "ftp://ftp.hostrino.com/pub/ubuntu/archive/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Hungary",
-            "mirrors": [
-                {
-                    "name": "FSN.hu Foundation ",
+        "Hungary": {
+            "mirrors": {
+                "FSN.hu Foundation ": {
                     "mirrors": {
                         "http": "http://ftp.freepark.org/ubuntu/",
                         "ftp": "ftp://ftp.freepark.org/ubuntu/",
                         "rsync": "rsync://ftp.freepark.org/ftp/ubuntu/"
                     } 
                 },
-                {
-                    "name": "KFKI.hu",
+                "KFKI.hu": {
                     "mirrors": {
                         "http": "http://ftp.kfki.hu/linux/ubuntu/",
                         "ftp": "ftp://ftp.kfki.hu/pub/linux/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Iceland",
-            "mirrors": [
-                {
-                    "name": "Ubuntu-lhi-is",
+        "Iceland": {
+            "mirrors": {
+                "Ubuntu-lhi-is": {
                     "mirrors": {
                         "http": "http://ubuntu.lhi.is/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "India",
-            "mirrors": [
-                {
-                    "name": "indian institute of technology madras",
+        "India": {
+            "mirrors": {
+                "indian institute of technology madras": {
                     "mirrors": {
                         "http": "http://ftp.iitm.ac.in/ubuntu/",
                         "ftp": "ftp://ftp.iitm.ac.in/ubuntu",
                         "rsync": "rsync://ftp.iitm.ac.in/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Indonesia",
-            "mirrors": [
-                {
-                    "name": "University of Indonesia",
-                    "mirrors": {
-                        "http": "http://kambing.ui.edu/ubuntu/",
-                        "ftp": "ftp://kambing.ui.edu/ubuntu/",
-                        "rsync": "rsync://kambing.ui.edu/ubuntu/"
-                    } 
-                },
-                {
-                    "name": "EEPIS-ITS",
+        "Indonesia": {
+            "mirrors": {
+                "EEPIS-ITS": {
                     "mirrors": {
                         "http": "http://kebo.vlsm.org/ubuntu/",
                         "ftp": "ftp://kebo.vlsm.org/ubuntu/",
                         "rsync": "rsync://kebo.vlsm.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "PT Telekomunikasi Indonesia",
+                "PT Telekomunikasi Indonesia": {
                     "mirrors": {
                         "http": "http://dl2.foss-id.web.id/ubuntu/"
                     } 
                 },
-                {
-                    "name": "IndikaNet",
+                "IndikaNet": {
                     "mirrors": {
                         "http": "http://ubuntu.indika.net.id/ubuntu/",
                         "ftp": "ftp://ubuntu.indika.net.id/ubuntu/",
                         "rsync": "rsync://ubuntu.indika.net.id/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ubuntu.indika.net.id-archive2",
+                "Ubuntu.indika.net.id-archive2": {
                     "mirrors": {
                         "http": "http://ubuntu.indika.net.id/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Ireland",
-            "mirrors": [
-                {
-                    "name": "HEAnet",
+        "Ireland": {
+            "mirrors": {
+                "HEAnet": {
                     "mirrors": {
                         "http": "http://ie.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://ie.archive.ubuntu.com/pub/ubuntu/",
                         "rsync": "rsync://ie.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Esat Net",
+                "Esat Net": {
                     "mirrors": {
                         "http": "http://ftp.esat.net/mirrors/archive.ubuntu.com/",
                         "ftp": "ftp://ftp.esat.net/mirrors/archive.ubuntu.com/",
                         "rsync": "rsync://ftp.esat.net/mirrors/archive.ubuntu.com/"
                     } 
                 },
-                {
-                    "name": "Ftp-heanet-ie",
+                "Ftp-heanet-ie": {
                     "mirrors": {
                         "http": "http://ftp.heanet.ie/pub/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Israel",
-            "mirrors": [
-                {
-                    "name": "Israel Internet Association",
+        "Israel": {
+            "mirrors": {
+                "Israel Internet Association": {
                     "mirrors": {
                         "http": "http://mirror.isoc.org.il/pub/ubuntu/",
                         "ftp": "ftp://mirror.isoc.org.il/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Italy",
-            "mirrors": [
-                {
-                    "name": "University of Rome - La Sapienza",
+        "Italy": {
+            "mirrors": {
+                "University of Rome - La Sapienza": {
                     "mirrors": {
                         "http": "http://fileserver.uniroma1.it/ubuntu/",
                         "ftp": "ftp://fileserver.uniroma1.it/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Fastbull",
+                "Fastbull": {
                     "mirrors": {
                         "http": "http://ubuntu.fastbull.org/ubuntu/",
                         "ftp": "ftp://ubuntu.fastbull.org/ubuntu/",
                         "rsync": "rsync://ubuntu.fastbull.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "GARR/CILEA mirror service",
+                "GARR/CILEA mirror service": {
                     "mirrors": {
                         "http": "http://na.mirror.garr.it/mirrors/ubuntu-archive/",
                         "ftp": "ftp://na.mirror.garr.it/mirrors/ubuntu-archive/",
                         "rsync": "rsync://na.mirror.garr.it::ubuntu-archive/"
                     } 
                 },
-                {
-                    "name": "ICT Valle Umbra s.r.l.",
+                "ICT Valle Umbra s.r.l.": {
                     "mirrors": {
                         "http": "http://ubuntu.ictvalleumbra.it/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Genoa",
+                "University of Genoa": {
                     "mirrors": {
                         "http": "http://giano.com.dist.unige.it/ubuntu/",
                         "ftp": "ftp://giano.com.dist.unige.it/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Japan",
-            "mirrors": [
-                {
-                    "name": "JAIST",
+        "Japan": {
+            "mirrors": {
+                "JAIST": {
                     "mirrors": {
                         "http": "http://ftp.jaist.ac.jp/pub/Linux/ubuntu/",
                         "ftp": "ftp://ftp.jaist.ac.jp/pub/Linux/ubuntu/",
                         "rsync": "rsync://ftp.jaist.ac.jp/pub/Linux/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ftp-ecc-u-tokyo-ac-jp",
+                "Ftp-ecc-u-tokyo-ac-jp": {
                     "mirrors": {
                         "http": "http://ftp.ecc.u-tokyo.ac.jp/ubuntu/",
                         "ftp": "ftp://ftp.ecc.u-tokyo.ac.jp/ubuntu/",
                         "rsync": "rsync://ftp.ecc.u-tokyo.ac.jp/ubuntu/"
                     } 
                 },
-                {
-                    "name": "RIKEN",
+                "RIKEN": {
                     "mirrors": {
                         "http": "http://ftp.riken.jp/Linux/ubuntu/",
                         "ftp": "ftp://ftp.riken.jp/Linux/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Yamagata University",
+                "Yamagata University": {
                     "mirrors": {
                         "http": "http://ftp.yz.yamagata-u.ac.jp/pub/linux/ubuntu/archives/",
                         "ftp": "ftp://ftp.yz.yamagata-u.ac.jp/pub/linux/ubuntu/archives/",
                         "rsync": "rsync://ftp.yz.yamagata-u.ac.jp/pub/linux/ubuntu/archives/"
                     } 
                 },
-                {
-                    "name": "UNIVERSITY OF TOYAMA with Ubuntu Japanese LoCo",
+                "UNIVERSITY OF TOYAMA with Ubuntu Japanese LoCo": {
                     "mirrors": {
                         "http": "http://ubuntutym.u-toyama.ac.jp/ubuntu/"
                     } 
                 },
-                {
-                    "name": "K.K. Ashisuto with Ubuntu Japanese LoCo",
+                "K.K. Ashisuto with Ubuntu Japanese LoCo": {
                     "mirrors": {
                         "http": "http://ubuntu-ashisuto.ubuntulinux.jp/ubuntu/"
                     } 
                 },
-                {
-                    "name": "mithril-linux.org (offered by Debian-JP Project member)",
+                "mithril-linux.org (offered by Debian-JP Project member)": {
                     "mirrors": {
                         "http": "http://ubuntu.mithril-linux.org/archives/"
                     } 
                 },
-                {
-                    "name": "KDDI R&D Laboratories Inc.",
+                "KDDI R&D Laboratories Inc.": {
                     "mirrors": {
                         "http": "http://www.ftp.ne.jp/Linux/packages/ubuntu/archive/",
                         "ftp": "ftp://ftp.kddilabs.jp/Linux/packages/ubuntu/archive/",
                         "rsync": "rsync://rsync.kddilabs.jp/ubuntu/archive/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Korea, Republic of",
-            "mirrors": [
-                {
-                    "name": "Daum Communications Corp.",
+        "Korea, Republic of": {
+            "mirrors": {
+                "Daum Communications Corp.": {
                     "mirrors": {
                         "http": "http://ftp.daum.net/ubuntu/",
                         "ftp": "ftp://ftp.daum.net/ubuntu/"
                     } 
                 },
-                {
-                    "name": "KAIST",
+                "KAIST": {
                     "mirrors": {
                         "http": "http://kr.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://kr.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://kr.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Mirror-letsopen-com",
+                "Mirror-letsopen-com": {
                     "mirrors": {
                         "http": "http://mirror.letsopen.com/os/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Korea University",
+                "Korea University": {
                     "mirrors": {
                         "http": "http://mirror.korea.ac.kr/ubuntu/",
                         "ftp": "ftp://mirror.korea.ac.kr/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Latvia",
-            "mirrors": [
-                {
-                    "name": "Ftp-linux-edu-lv",
+        "Latvia": {
+            "mirrors": {
+                "Ftp-linux-edu-lv": {
                     "mirrors": {
                         "http": "http://ftp.linux.edu.lv/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Lithuania",
-            "mirrors": [
-                {
-                    "name": "Litnet",
+        "Lithuania": {
+            "mirrors": {
+                "Litnet": {
                     "mirrors": {
                         "http": "http://ftp.litnet.lt/pub/ubuntu/",
                         "ftp": "ftp://ftp.litnet.lt/pub/ubuntu/",
                         "rsync": "rsync://ftp.litnet.lt/pub/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Malaysia",
-            "mirrors": [
-                {
-                    "name": "Multimedia University (MMU)",
+        "Malaysia": {
+            "mirrors": {
+                "Multimedia University (MMU)": {
                     "mirrors": {
                         "http": "http://archive.mmu.edu.my/ubuntu/"
                     } 
                 },
-                {
-                    "name": "MMU",
+                "MMU": {
                     "mirrors": {
                         "http": "http://ubuntu.mmu.edu.my/ubuntu/"
                     } 
                 },
-                {
-                    "name": "OSCC",
+                "OSCC": {
                     "mirrors": {
                         "http": "http://mirror.oscc.org.my/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Malta",
-            "mirrors": [
-                {
-                    "name": "Malta Linux User Group",
+        "Malta": {
+            "mirrors": {
+                "Malta Linux User Group": {
                     "mirrors": {
                         "http": "http://mt.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://mt.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://mt.archive.ubuntu.com/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Mexico",
-            "mirrors": [
-                {
-                    "name": "UNAM",
+        "Mexico": {
+            "mirrors": {
+                "UNAM": {
                     "mirrors": {
                         "http": "http://tezcatl.fciencias.unam.mx/ubuntu/",
                         "ftp": "ftp://tezcatl.fciencias.unam.mx/ubuntu/",
                         "rsync": "rsync://tezcatl.fciencias.unam.mx/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Mongolia",
-            "mirrors": [
-                {
-                    "name": "Mongolian Open Source Initiative NGO",
+        "Mongolia": {
+            "mirrors": {
+                "Mongolian Open Source Initiative NGO": {
                     "mirrors": {
                         "http": "http://archive.ubuntu.mnosi.org/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Namibia",
-            "mirrors": [
-                {
-                    "name": "Polytechnic of Namibia",
+        "Namibia": {
+            "mirrors": {
+                "Polytechnic of Namibia": {
                     "mirrors": {
                         "http": "http://ubuntu-archive.polytechnic.edu.na/ubuntu/",
                         "ftp": "ftp://ftp.polytechnic.edu.na/pub/ubuntu/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Nepal",
-            "mirrors": [
-                {
-                    "name": "Mitra Network Private Limited",
+        "Nepal": {
+            "mirrors": {
+                "Mitra Network Private Limited": {
                     "mirrors": {
                         "http": "http://archive.mitra.net.np/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Netherlands",
-            "mirrors": [
-                {
-                    "name": "Cambrium BV.",
+        "Netherlands": {
+            "mirrors": {
+                "Cambrium BV.": {
                     "mirrors": {
                         "http": "http://ubuntu.mirror.cambrium.nl/ubuntu/"
                     } 
                 },
-                {
-                    "name": "BIT B.V.",
+                "BIT B.V.": {
                     "mirrors": {
                         "http": "http://nl.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://nl.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://nl.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Twente, The Netherlands",
+                "University of Twente, The Netherlands": {
                     "mirrors": {
                         "http": "http://nl2.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://nl2.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://nl2.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Eweka Internet Services BV",
+                "Eweka Internet Services BV": {
                     "mirrors": {
                         "http": "http://ubuntuarchive.eweka.nl/ubuntu/",
                         "ftp": "ftp://ubuntuarchive.eweka.nl/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Telfort Internet",
+                "Telfort Internet": {
                     "mirrors": {
                         "http": "http://ftp.telfort.nl/ubuntu/",
                         "ftp": "ftp://ftp.telfort.nl/pub/mirror/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Technische Universiteit Delft",
+                "Technische Universiteit Delft": {
                     "mirrors": {
                         "ftp": "ftp://ftp.tudelft.nl/pub/Linux/archive.ubuntu.com/"
                     } 
                 },
-                {
-                    "name": "Mirrors.kernel.org",
+                "Mirrors.kernel.org": {
                     "mirrors": {
                         "http": "http://mirrors.nl.eu.kernel.org/ubuntu/",
                         "ftp": "ftp://mirrors.nl.eu.kernel.org/ubuntu/",
                         "rsync": "rsync://mirrors.nl.eu.kernel.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "PCextreme B.V.",
+                "PCextreme B.V.": {
                     "mirrors": {
                         "http": "http://nl3.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://nl3.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "ftp.tiscali.nl-archive",
+                "ftp.tiscali.nl-archive": {
                     "mirrors": {
                         "http": "http://ubuntu.tiscali.nl/",
                         "ftp": "ftp://ubuntu.tiscali.nl/",
                         "rsync": "rsync://ubuntu.tiscali.nl/"
                     } 
                 },
-                {
-                    "name": "Ftpserv-tudelft-nl",
+                "Ftpserv-tudelft-nl": {
                     "mirrors": {
                         "ftp": "ftp://ftpserv.tudelft.nl/pub/Linux/archive.ubuntu.com/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "New Zealand",
-            "mirrors": [
-                {
-                    "name": "Ftp-citylink-co-nz",
+        "New Zealand": {
+            "mirrors": {
+                "Ftp-citylink-co-nz": {
                     "mirrors": {
                         "http": "http://nz.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://nz.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://nz.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "ihug",
+                "ihug": {
                     "mirrors": {
                         "http": "http://nz2.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://nz2.archive.ubuntu.com/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Norway",
-            "mirrors": [
-                {
-                    "name": "UNINETT/University of Oslo",
+        "Norway": {
+            "mirrors": {
+                "UNINETT/University of Oslo": {
                     "mirrors": {
                         "http": "http://ftp.uninett.no/ubuntu/",
                         "ftp": "ftp://ftp.uninett.no/ubuntu/",
                         "rsync": "rsync://ftp.uninett.no/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Poland",
-            "mirrors": [
-                {
-                    "name": "Wroclaw Centre for Networking and Supercomputing",
+        "Poland": {
+            "mirrors": {
+                "Wroclaw Centre for Networking and Supercomputing": {
                     "mirrors": {
                         "http": "http://ftp.wcss.pl/ubuntu/",
                         "ftp": "ftp://ftp.wcss.pl/ubuntu/",
                         "rsync": "rsync://ftp.wcss.pl/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Vectra",
+                "Vectra": {
                     "mirrors": {
                         "http": "http://ftp.vectranet.pl/ubuntu/",
                         "ftp": "ftp://ftp.vectranet.pl/ubuntu/",
                         "rsync": "rsync://ftp.vectranet.pl/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ftp-man-szczecin-pl",
+                "Ftp-man-szczecin-pl": {
                     "mirrors": {
                         "ftp": "ftp://ftp.man.szczecin.pl/pub/Linux/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Piotrkosoft.net - Data Storage Center",
+                "Piotrkosoft.net - Data Storage Center": {
                     "mirrors": {
                         "http": "http://piotrkosoft.net/pub/mirrors/ubuntu/",
                         "ftp": "ftp://ftp.piotrkosoft.net/pub/mirrors/ubuntu/",
                         "rsync": "rsync://rsync.piotrkosoft.net/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ubuntu-task-gda-pl",
+                "Ubuntu-task-gda-pl": {
                     "mirrors": {
                         "http": "http://ubuntu.task.gda.pl/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Portugal",
-            "mirrors": [
-                {
-                    "name": "Dep. de Ciência de Computadores - FCUP",
+        "Portugal": {
+            "mirrors": {
+                "Dep. de Ciência de Computadores - FCUP": {
                     "mirrors": {
                         "http": "http://ubuntu.dcc.fc.up.pt/"
                     } 
                 },
-                {
-                    "name": "University of Coimbra, Dep. Informatics Engineering",
+                "University of Coimbra, Dep. Informatics Engineering": {
                     "mirrors": {
                         "http": "http://ftp.dei.uc.pt/pub/linux/ubuntu/archive/",
                         "ftp": "ftp://ftp.dei.uc.pt/pub/linux/ubuntu/archive/"
                     } 
                 },
-                {
-                    "name": "nfsi telecom ",
+                "nfsi telecom ": {
                     "mirrors": {
                         "http": "http://mirrors.nfsi.pt/ubuntu/",
                         "ftp": "ftp://mirrors.nfsi.pt/pub/ubuntu/"
                     } 
                 },
-                {
-                    "name": "NEACM - University of Porto",
+                "NEACM - University of Porto": {
                     "mirrors": {
                         "http": "http://neacm.fe.up.pt/ubuntu/",
                         "ftp": "ftp://neacm.fe.up.pt/pub/ubuntu/"
                     } 
                 },
-                {
-                    "name": "sdAEIST",
+                "sdAEIST": {
                     "mirrors": {
                         "http": "http://darkstar.ist.utl.pt/ubuntu/archive/",
                         "ftp": "ftp://darkstar.ist.utl.pt/pub/ubuntu/archive",
                         "rsync": "rsync://darkstar.ist.utl.pt/pub/ubuntu/archive/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Romania",
-            "mirrors": [
-                {
-                    "name": "xServers Romania",
+        "Romania": {
+            "mirrors": {
+                "xServers Romania": {
                     "mirrors": {
                         "http": "http://mirrors.xservers.ro/ubuntu/"
                     } 
                 },
-                {
-                    "name": "UPC Romania",
+                "UPC Romania": {
                     "mirrors": {
                         "http": "http://ftp.astral.ro/mirrors/ubuntu.com/ubuntu/",
                         "ftp": "ftp://ftp.astral.ro/mirrors/ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "ArLUG (Arad Linux Users Group)",
+                "ArLUG (Arad Linux Users Group)": {
                     "mirrors": {
                         "http": "http://mirror.arlug.ro/pub/ubuntu/ubuntu/",
                         "ftp": "ftp://mirror.arlug.ro/pub/ubuntu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ftp-lug-ro",
+                "Ftp-lug-ro": {
                     "mirrors": {
                         "http": "http://ftp.lug.ro/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Russian Federation",
-            "mirrors": [
-                {
-                    "name": "Corbina Telecom",
+        "Russian Federation": {
+            "mirrors": {
+                "Corbina Telecom": {
                     "mirrors": {
                         "ftp": "ftp://ftp.corbina.net/pub/Linux/ubuntu/",
                         "rsync": "rsync://ftp.corbina.net/ubuntu/"
                     } 
                 },
-                {
-                    "name": "COMSTAR-Direct",
+                "COMSTAR-Direct": {
                     "mirrors": {
                         "http": "http://ftp.mtu.ru/pub/ubuntu/archive/",
                         "ftp": "ftp://ftp.mtu.ru/pub/ubuntu/archive/",
                         "rsync": "rsync://ftp.mtu.ru/pub/ubuntu/archive/"
                     } 
                 },
-                {
-                    "name": "Golden Telecom Inc",
+                "Golden Telecom Inc": {
                     "mirrors": {
                         "http": "http://mirror.rol.ru/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Yandex",
+                "Yandex": {
                     "mirrors": {
                         "http": "http://mirror.yandex.ru/ubuntu/",
                         "ftp": "ftp://mirror.yandex.ru/ubuntu/",
                         "rsync": "rsync://mirror.yandex.ru/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Moscow Institute of Physics and Technology",
+                "Moscow Institute of Physics and Technology": {
                     "mirrors": {
                         "ftp": "ftp://ftp.mipt.ru/mirror/ubuntu/",
                         "rsync": "rsync://ftp.mipt.ru/mirror/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ftp-chg-ru",
+                "Ftp-chg-ru": {
                     "mirrors": {
                         "http": "http://ftp.chg.ru/pub/Linux/ubuntu/archive/",
                         "ftp": "ftp://ftp.chg.ru/pub/Linux/ubuntu/archive/",
                         "rsync": "rsync://ftp.chg.ru/ubuntu/archive/"
                     } 
                 },
-                {
-                    "name": "AlexAnis Home",
+                "AlexAnis Home": {
                     "mirrors": {
                         "http": "http://89.148.222.236/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Serbia",
-            "mirrors": [
-                {
-                    "name": "RC ETF",
+        "Serbia": {
+            "mirrors": {
+                "RC ETF": {
                     "mirrors": {
                         "http": "http://rs.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://rs.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://rs.archive.ubuntu.com/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Singapore",
-            "mirrors": [
-                {
-                    "name": "EZNETWORKING SOLUTIONS PTE. LTD.",
+        "Singapore": {
+            "mirrors": {
+                "EZNETWORKING SOLUTIONS PTE. LTD.": {
                     "mirrors": {
                         "http": "http://ubuntu.oss.eznetsols.org/ubuntu/",
                         "ftp": "ftp://ftp.oss.eznetsols.org/linux/ubuntu/",
                         "rsync": "rsync://rsync.oss.eznetsols.org/ftp/linux/ubuntu/"
                     } 
                 },
-                {
-                    "name": "ITU, Science, National University of Singapore",
+                "ITU, Science, National University of Singapore": {
                     "mirrors": {
                         "http": "http://ftp.science.nus.edu.sg/ubuntu/",
                         "ftp": "ftp://ftp.science.nus.edu.sg/pub/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Slovakia",
-            "mirrors": [
-                {
-                    "name": "YNET & kubuntu.sk",
+        "Slovakia": {
+            "mirrors": {
+                "YNET & kubuntu.sk": {
                     "mirrors": {
                         "http": "http://ubuntu.ynet.sk/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Antik computers & communications s.r.o.",
+                "Antik computers & communications s.r.o.": {
                     "mirrors": {
                         "http": "http://ftp.antik.sk/ubuntu/",
                         "ftp": "ftp://ftp.antik.sk/ubuntu/",
                         "rsync": "rsync://ftp.antik.sk/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Technical University of Kosice",
+                "Technical University of Kosice": {
                     "mirrors": {
                         "http": "http://sk.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://sk.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://sk.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Energotel, a.s.",
+                "Energotel, a.s.": {
                     "mirrors": {
                         "http": "http://ftp.energotel.sk/pub/linux/ubuntu/",
                         "ftp": "ftp://ftp.energotel.sk/pub/linux/ubuntu/",
                         "rsync": "rsync://rsync.energotel.sk/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "South Africa",
-            "mirrors": [
-                {
-                    "name": "TENET",
+        "South Africa": {
+            "mirrors": {
+                "TENET": {
                     "mirrors": {
                         "http": "http://ubuntu.mirror.ac.za/ubuntu-archive/",
                         "ftp": "ftp://ubuntu.mirror.ac.za/ubuntu-archive",
                         "rsync": "rsync://ubuntu.mirror.ac.za/ubuntu-archive/"
                     } 
                 },
-                {
-                    "name": "UCT LEG",
+                "UCT LEG": {
                     "mirrors": {
                         "http": "http://ftp.leg.uct.ac.za/pub/linux/ubuntu/",
                         "ftp": "ftp://ftp.leg.uct.ac.za/pub/linux/ubuntu/",
                         "rsync": "rsync://ftp.leg.uct.ac.za/pub/linux/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Spain",
-            "mirrors": [
-                {
-                    "name": "CICA",
+        "Spain": {
+            "mirrors": {
+                "CICA": {
                     "mirrors": {
                         "http": "http://es.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://es.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://es.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Universidade da Coruña",
+                "Universidade da Coruña": {
                     "mirrors": {
                         "http": "http://ftp.udc.es/ubuntu/",
                         "ftp": "ftp://ftp.udc.es/ubuntu/",
                         "rsync": "rsync://rsync.udc.es/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ourense Software Libre",
+                "Ourense Software Libre": {
                     "mirrors": {
                         "http": "http://mirror.ousli.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Dpto. Sistemas Telemáticos y Computación - Universidad Rey Juan Carlos",
+                "Dpto. Sistemas Telemáticos y Computación - Universidad Rey Juan Carlos": {
                     "mirrors": {
                         "http": "http://peloto.pantuflo.es/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Universidad de Zaragoza",
+                "Universidad de Zaragoza": {
                     "mirrors": {
                         "http": "http://softlibre.unizar.es/ubuntu/archive/",
                         "ftp": "ftp://softlibre.unizar.es/ubuntu/archive/"
                     } 
                 },
-                {
-                    "name": "RedIRIS",
+                "RedIRIS": {
                     "mirrors": {
                         "http": "http://sunsite.rediris.es/mirror/ubuntu-archive/",
                         "ftp": "ftp://ftp.rediris.es/mirror/ubuntu-archive/"
                     } 
                 },
-                {
-                    "name": "Caliu",
+                "Caliu": {
                     "mirrors": {
                         "http": "http://ftp.caliu.cat/pub/distribucions/ubuntu/archive/"
                     } 
                 },
-                {
-                    "name": "Delegación de Alumnos de Teleco - ETSIT - UPM",
+                "Delegación de Alumnos de Teleco - ETSIT - UPM": {
                     "mirrors": {
                         "http": "http://ftp.dat.etsit.upm.es/ubuntu/",
                         "ftp": "ftp://ftp.dat.etsit.upm.es/ubuntu/"
                     } 
                 },
-                {
-                    "name": "GRN Serveis telemàtics",
+                "GRN Serveis telemàtics": {
                     "mirrors": {
                         "http": "http://ubuntu.grn.cat/ubuntu/",
                         "ftp": "ftp://ubuntu.grn.cat/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ftp-gui-uva-es",
+                "Ftp-gui-uva-es": {
                     "mirrors": {
                         "http": "http://ftp.gui.uva.es/sites/ubuntu.com/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Sweden",
-            "mirrors": [
-                {
-                    "name": "Sunet FTP archive",
+        "Sweden": {
+            "mirrors": {
+                "Sunet FTP archive": {
                     "mirrors": {
                         "http": "http://ftp.sunet.se/pub/Linux/distributions/ubuntu/ubuntu/",
                         "ftp": "ftp://ftp.sunet.se/pub/Linux/distributions/ubuntu/ubuntu/",
                         "rsync": "rsync://ftp.sunet.se/pub/Linux/distributions/ubuntu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Academic Computer Club, Umeå University",
+                "Academic Computer Club, Umeå University": {
                     "mirrors": {
                         "http": "http://se.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://se.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "DF - The Computer Society at the Lund Institute of Technology. ",
+                "DF - The Computer Society at the Lund Institute of Technology. ": {
                     "mirrors": {
                         "http": "http://ftp.df.lth.se/ubuntu/",
                         "ftp": "ftp://ftp.df.lth.se/ubuntu/"
                     } 
                 },
-                {
-                    "name": "DatorSektionen Högskolan Jönköping",
+                "DatorSektionen Högskolan Jönköping": {
                     "mirrors": {
                         "http": "http://ftp.ds.karen.hj.se/ubuntu/",
                         "ftp": "ftp://ftp.ds.karen.hj.se/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Mirrors.kernel.org",
+                "Mirrors.kernel.org": {
                     "mirrors": {
                         "http": "http://mirrors.se.eu.kernel.org/ubuntu/",
                         "ftp": "ftp://mirrors.se.eu.kernel.org/ubuntu/",
                         "rsync": "rsync://mirrors.se.eu.kernel.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Stockholm University",
+                "Stockholm University": {
                     "mirrors": {
                         "http": "http://ubuntu.mirror.su.se/ubuntu/",
                         "ftp": "ftp://ubuntu.mirror.su.se/ubuntu/",
                         "rsync": "rsync://ubuntu.mirror.su.se/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ftp-port80-se",
+                "Ftp-port80-se": {
                     "mirrors": {
                         "http": "http://ftp.port80.se/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Switzerland",
-            "mirrors": [
-                {
-                    "name": "SWITCH",
+        "Switzerland": {
+            "mirrors": {
+                "SWITCH": {
                     "mirrors": {
                         "http": "http://mirror.switch.ch/ftp/mirror/ubuntu/",
                         "ftp": "ftp://mirror.switch.ch/mirror/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Powermongo",
+                "Powermongo": {
                     "mirrors": {
                         "http": "http://mirror.powermongo.org/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Taiwan",
-            "mirrors": [
-                {
-                    "name": "NCHC, Taiwan",
+        "Taiwan": {
+            "mirrors": {
+                "NCHC, Taiwan": {
                     "mirrors": {
                         "http": "http://free.nchc.org.tw/ubuntu/",
                         "ftp": "ftp://free.nchc.org.tw/ubuntu"
                     } 
                 },
-                {
-                    "name": "NCTUCC",
+                "NCTUCC": {
                     "mirrors": {
                         "http": "http://debian.nctu.edu.tw/ubuntu/",
                         "ftp": "ftp://debian.nctu.edu.tw/ubuntu/",
                         "rsync": "rsync://debian.nctu.edu.tw/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Chung-Hua University",
+                "Chung-Hua University": {
                     "mirrors": {
                         "ftp": "ftp://ftp.chu.edu.tw/Linux/Ubuntu/archives/"
                     } 
                 },
-                {
-                    "name": "Providence University , CCI",
+                "Providence University , CCI": {
                     "mirrors": {
                         "http": "http://ftp.cs.pu.edu.tw/Linux/Ubuntu/ubuntu/",
                         "ftp": "ftp://ftp.cs.pu.edu.tw/Linux/Ubuntu/ubuntu/",
                         "rsync": "rsync://ftp.cs.pu.edu.tw/Linux/Ubuntu/ubuntu/"
                     } 
                 },
-                {
-                    "name": " Yuan Ze University Department of Computer Science",
+                " Yuan Ze University Department of Computer Science": {
                     "mirrors": {
                         "http": "http://ftp.cse.yzu.edu.tw/pub/Linux/Ubuntu/ubuntu/",
                         "ftp": "ftp://ftp.cse.yzu.edu.tw/pub/Linux/Ubuntu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "National Center for High-Performance Computing(NCHC)",
+                "National Center for High-Performance Computing(NCHC)": {
                     "mirrors": {
                         "http": "http://ftp.twaren.net/Linux/Ubuntu/ubuntu/",
                         "ftp": "ftp://ftp.twaren.net/Linux/Ubuntu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "National Taitung University",
+                "National Taitung University": {
                     "mirrors": {
                         "http": "http://mirror.nttu.edu.tw/ubuntu/",
                         "ftp": "ftp://mirror.nttu.edu.tw/ubuntu/"
                     } 
                 },
-                {
-                    "name": "National Taiwan University",
+                "National Taiwan University": {
                     "mirrors": {
                         "http": "http://tw.archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://tw.archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://tw.archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Shu-Te University",
+                "Shu-Te University": {
                     "mirrors": {
                         "http": "http://ubuntu.stu.edu.tw/ubuntu/",
                         "ftp": "ftp://ubuntu.stu.edu.tw/ubuntu/"
                     } 
                 },
-                {
-                    "name": "National Chi Nan University",
+                "National Chi Nan University": {
                     "mirrors": {
                         "http": "http://ftp.ncnu.edu.tw/Linux/ubuntu/ubuntu/",
                         "ftp": "ftp://ftp.ncnu.edu.tw/Linux/ubuntu/ubuntu/",
                         "rsync": "rsync://ftp.ncnu.edu.tw/ubuntu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Computer Science Institute, Chiao-Tung University",
+                "Computer Science Institute, Chiao-Tung University": {
                     "mirrors": {
                         "http": "http://ubuntu.csie.nctu.edu.tw/ubuntu/",
                         "ftp": "ftp://ubuntu.csie.nctu.edu.tw/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Thailand",
-            "mirrors": [
-                {
-                    "name": "Office of Computer Services, Kasetsart University",
+        "Thailand": {
+            "mirrors": {
+                "Office of Computer Services, Kasetsart University": {
                     "mirrors": {
                         "http": "http://mirror1.ku.ac.th/ubuntu/"
                     } 
                 },
-                {
-                    "name": "School of Information Technology, KMUTT",
+                "School of Information Technology, KMUTT": {
                     "mirrors": {
                         "http": "http://ubuntu-mirror.sit.kmutt.ac.th/archive/",
                         "ftp": "ftp://ubuntu-mirror.sit.kmutt.ac.th/archive/"
                     } 
                 },
-                {
-                    "name": "Thai National Mirror",
+                "Thai National Mirror": {
                     "mirrors": {
                         "http": "http://th.archive.ubuntu.com/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Turkey",
-            "mirrors": [
-                {
-                    "name": "Linux Kullanicilari Dernegi",
+        "Turkey": {
+            "mirrors": {
+                "Linux Kullanicilari Dernegi": {
                     "mirrors": {
                         "http": "http://ftp.linux.org.tr/ubuntu/",
                         "ftp": "ftp://ftp.linux.org.tr/ubuntu/",
                         "rsync": "rsync://ftp.linux.org.tr/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Middle East Technical University",
+                "Middle East Technical University": {
                     "mirrors": {
                         "http": "http://ftp.metu.edu.tr/ubuntu/",
                         "ftp": "ftp://ftp.metu.edu.tr/ubuntu/",
                         "rsync": "rsync://ftp.metu.edu.tr/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Bilgi University",
+                "Bilgi University": {
                     "mirrors": {
                         "http": "http://russell.cs.bilgi.edu.tr/ubuntu/",
                         "ftp": "ftp://russell.cs.bilgi.edu.tr/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Turkey GNU Organization",
+                "Turkey GNU Organization": {
                     "mirrors": {
                         "http": "http://ubuntu.gnu.gen.tr/ubuntu/",
                         "ftp": "ftp://ubuntu.gnu.gen.tr/ubuntu/",
                         "rsync": "rsync://ubuntu.gnu.gen.tr/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Ukraine",
-            "mirrors": [
-                {
-                    "name": "Mirohost.net",
+        "Ukraine": {
+            "mirrors": {
+                "Mirohost.net": {
                     "mirrors": {
                         "http": "http://mirror.mirohost.net/ubuntu/",
                         "ftp": "ftp://mirror.mirohost.net/ubuntu/",
                         "rsync": "rsync://mirror.mirohost.net/ubuntu/"
                     } 
                 },
-                {
-                    "name": "XCP + HELL",
+                "XCP + HELL": {
                     "mirrors": {
                         "http": "http://ubuntu.org.ua/ubuntu/",
                         "ftp": "ftp://ubuntu.org.ua/ubuntu/",
                         "rsync": "rsync://ubuntu.org.ua/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "United Kingdom",
-            "mirrors": [
-                {
-                    "name": "Oxford University Computing Services",
+        "United Kingdom": {
+            "mirrors": {
+                "Oxford University Computing Services": {
                     "mirrors": {
                         "http": "http://mirror.ox.ac.uk/sites/archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://mirror.ox.ac.uk/sites/archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://mirror.ox.ac.uk/sites/archive.ubuntu.com/"
                     } 
                 },
-                {
-                    "name": "datahop.it",
+                "datahop.it": {
                     "mirrors": {
                         "http": "http://ubuntu-archive.datahop.it/ubuntu/",
                         "ftp": "ftp://ubuntu-archive.datahop.it/ubuntu/",
                         "rsync": "rsync://ubuntu-archive.datahop.it/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Kent UK Mirror Service",
+                "University of Kent UK Mirror Service": {
                     "mirrors": {
                         "http": "http://www.mirrorservice.org/sites/archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://ftp.mirrorservice.org/sites/archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://rsync.mirrorservice.org/archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Canonical Ltd",
+                "Canonical Ltd": {
                     "mirrors": {
                         "http": "http://archive.ubuntu.com/ubuntu/",
                         "ftp": "ftp://archive.ubuntu.com/ubuntu/",
                         "rsync": "rsync://archive.ubuntu.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ticklers.Org",
+                "Ticklers.Org": {
                     "mirrors": {
                         "http": "http://ftp.ticklers.org/archive.ubuntu.org/ubuntu/",
                         "ftp": "ftp://ftp.ticklers.org/archive.ubuntu.org/ubuntu/",
                         "rsync": "rsync://ftp0.ticklers.org/archive.ubuntu.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "The Positive Internet Company",
+                "The Positive Internet Company": {
                     "mirrors": {
                         "http": "http://ubuntu.positive-internet.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Retrosnub Internet Services",
+                "Retrosnub Internet Services": {
                     "mirrors": {
                         "http": "http://ubuntu.retrosnub.co.uk/",
                         "ftp": "ftp://ubuntu.retrosnub.co.uk/",
                         "rsync": "rsync://ubuntu.retrosnub.co.uk/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Virgin Media",
+                "Virgin Media": {
                     "mirrors": {
                         "http": "http://ubuntu.virginmedia.com/archive/",
                         "ftp": "ftp://mirrors.virginmedia.com/mirrors/ubuntu/archive"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "United States",
-            "mirrors": [
-                {
-                    "name": "Argonne National Laboratory",
+        "United States": {
+            "mirrors": {
+                "Argonne National Laboratory": {
                     "mirrors": {
                         "http": "http://mirror.anl.gov/pub/ubuntu/",
                         "ftp": "ftp://mirror.anl.gov/pub/ubuntu/",
                         "rsync": "rsync://mirror.anl.gov/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Chicago - Astronomy Department Public Mirror",
+                "University of Chicago - Astronomy Department Public Mirror": {
                     "mirrors": {
                         "http": "http://astromirror.uchicago.edu/ubuntu/",
                         "ftp": "ftp://astromirror.uchicago.edu/pub/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of South Florida",
+                "University of South Florida": {
                     "mirrors": {
                         "http": "http://ftp.usf.edu/pub/ubuntu/",
                         "ftp": "ftp://ftp.usf.edu/pub/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Central Michigan University Computer Science Department",
+                "Central Michigan University Computer Science Department": {
                     "mirrors": {
                         "http": "http://mirror.cps.cmich.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Portland State University",
+                "Portland State University": {
                     "mirrors": {
                         "http": "http://mirrors.cat.pdx.edu/ubuntu/",
                         "ftp": "ftp://mirrors.cat.pdx.edu/ubuntu/",
                         "rsync": "rsync://mirrors.cat.pdx.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Northeastern University College of Computer Science",
+                "Northeastern University College of Computer Science": {
                     "mirrors": {
                         "http": "http://mirrors.ccs.neu.edu/ubuntu/",
                         "ftp": "ftp://ftp.ccs.neu.edu/net/mirrors/archive.ubuntu.com/"
                     } 
                 },
-                {
-                    "name": "easynews.com-archives",
+                "easynews.com-archives": {
                     "mirrors": {
                         "http": "http://mirrors.easynews.com/linux/ubuntu/",
                         "ftp": "ftp://mirrors.easynews.com/linux/ubuntu",
                         "rsync": "rsync://mirrors.easynews.com:/mirrors/linux/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Mirrors.kernel.org",
+                "Mirrors.kernel.org": {
                     "mirrors": {
                         "http": "http://mirrors.us.kernel.org/ubuntu/",
                         "ftp": "ftp://mirrors.us.kernel.org/ubuntu/",
                         "rsync": "rsync://mirrors.us.kernel.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Rochester Institute of Technology",
+                "Rochester Institute of Technology": {
                     "mirrors": {
                         "http": "http://mirrors.rit.edu/ubuntu/",
                         "rsync": "rsync://mirrors.rit.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Xmission",
+                "Xmission": {
                     "mirrors": {
                         "http": "http://mirrors.xmission.com/ubuntu/",
                         "ftp": "ftp://mirrors.xmission.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "MIT Media Lab",
+                "MIT Media Lab": {
                     "mirrors": {
                         "http": "http://ubuntu.media.mit.edu/ubuntu/",
                         "rsync": "rsync://ubuntu.media.mit.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "UUNET Customer Security Support",
+                "UUNET Customer Security Support": {
                     "mirrors": {
                         "http": "http://ubuntu.secsup.org/",
                         "ftp": "ftp://ubuntu.secsup.org/pub/linux/ubuntu/",
                         "rsync": "rsync://ubuntu.secsup.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Walla Walla University",
+                "Walla Walla University": {
                     "mirrors": {
                         "http": "http://ubuntu.wallawalla.edu/ubuntu/",
                         "ftp": "ftp://ftp.wallawalla.edu/pub/mirrors/ubuntu/",
                         "rsync": "rsync://ftp.wallawalla.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Georgia Tech. Software Library",
+                "Georgia Tech. Software Library": {
                     "mirrors": {
                         "http": "http://www.gtlib.gatech.edu/pub/ubuntu/",
                         "ftp": "ftp://ftp.gtlib.gatech.edu/pub/ubuntu",
                         "rsync": "rsync://rsync.gtlib.gatech.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Duke University",
+                "Duke University": {
                     "mirrors": {
                         "http": "http://archive.linux.duke.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Michigan Tech Linux Users' Group",
+                "Michigan Tech Linux Users' Group": {
                     "mirrors": {
                         "http": "http://lug.mtu.edu/ubuntu/",
                         "ftp": "ftp://lug.mtu.edu/ubuntu/",
                         "rsync": "rsync://lug.mtu.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Clarkson University",
+                "Clarkson University": {
                     "mirrors": {
                         "http": "http://mirror.clarkson.edu/pub/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Columbia University",
+                "Columbia University": {
                     "mirrors": {
                         "http": "http://mirror.cc.columbia.edu/pub/linux/ubuntu/archive/",
                         "ftp": "ftp://mirror.cc.columbia.edu/pub/linux/ubuntu/archive/"
                     } 
                 },
-                {
-                    "name": "www.imbrandon.com",
+                "www.imbrandon.com": {
                     "mirrors": {
                         "http": "http://mirror.imbrandon.com/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Idaho",
+                "University of Idaho": {
                     "mirrors": {
                         "http": "http://mirror.its.uidaho.edu/pub/ubuntu/",
                         "ftp": "ftp://mirror.its.uidaho.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Maryland",
+                "University of Maryland": {
                     "mirrors": {
                         "http": "http://mirror.umoss.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "JHU ACM",
+                "JHU ACM": {
                     "mirrors": {
                         "http": "http://mirrors.acm.jhu.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of California at Merced",
+                "University of California at Merced": {
                     "mirrors": {
                         "http": "http://samaritan.ucmerced.edu/ubuntu/",
                         "rsync": "rsync://samaritan.ucmerced.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Frontier Communications",
+                "Frontier Communications": {
                     "mirrors": {
                         "http": "http://ubuntu.mirror.frontiernet.net/ubuntu/",
                         "ftp": "ftp://ubuntu.mirror.frontiernet.net/ubuntu/",
                         "rsync": "rsync://ubuntu.mirror.frontiernet.net/ubuntu/"
                     } 
                 },
-                {
-                    "name": "OSU Open Source Lab",
+                "OSU Open Source Lab": {
                     "mirrors": {
                         "http": "http://ubuntu.osuosl.org/ubuntu/",
                         "ftp": "ftp://ubuntu.osuosl.org/pub/ubuntu/",
                         "rsync": "rsync://ubuntu.osuosl.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Minnesota Ubuntu Archive",
+                "University of Minnesota Ubuntu Archive": {
                     "mirrors": {
                         "http": "http://mirror.cs.umn.edu/ubuntu/",
                         "rsync": "rsync://mirror.cs.umn.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "WVU LCSEE",
+                "WVU LCSEE": {
                     "mirrors": {
                         "http": "http://mirror.lcsee.wvu.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of California at Davis",
+                "University of California at Davis": {
                     "mirrors": {
                         "http": "http://mirror.math.ucdavis.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Alaska Fairbanks",
+                "University of Alaska Fairbanks": {
                     "mirrors": {
                         "http": "http://ubuntu.cs.uaf.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ubuntu-Rocks.Org",
+                "Ubuntu-Rocks.Org": {
                     "mirrors": {
                         "http": "http://archive.ubuntu-rocks.org/ubuntu/",
                         "ftp": "ftp://archive.ubuntu-rocks.org/ubuntu/",
                         "rsync": "rsync://archive.ubuntu-rocks.org/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Colorado at Denver",
+                "University of Colorado at Denver": {
                     "mirrors": {
                         "http": "http://cudlug.cudenver.edu/ubuntu/",
                         "ftp": "ftp://cudlug.cudenver.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ftp-unina-it",
+                "Ftp-unina-it": {
                     "mirrors": {
                         "http": "http://ftp.unina.it/pub/linux/distributions/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ftp-ussg-iu-edu",
+                "Ftp-ussg-iu-edu": {
                     "mirrors": {
                         "http": "http://ftp.ussg.iu.edu/linux/ubuntu/"
                     } 
                 },
-                {
-                    "name": "The University of Texas at Austin",
+                "The University of Texas at Austin": {
                     "mirrors": {
                         "http": "http://ftp.utexas.edu/ubuntu/",
                         "ftp": "ftp://ftp.utexas.edu/pub/ubuntu/",
                         "rsync": "rsync://ftp.utexas.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Mirrors-cs-wmich-edu",
+                "Mirrors-cs-wmich-edu": {
                     "mirrors": {
                         "http": "http://mirrors.cs.wmich.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Ubuntu-cs-utah-edu",
+                "Ubuntu-cs-utah-edu": {
                     "mirrors": {
                         "http": "http://ubuntu.cs.utah.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "University of Colorado at Boulder",
+                "University of Colorado at Boulder": {
                     "mirrors": {
                         "http": "http://ubuntu-mirror.cs.colorado.edu/ubuntu/"
                     } 
                 },
-                {
-                    "name": "Oakland University",
+                "Oakland University": {
                     "mirrors": {
                         "http": "http://ubuntu.secs.oakland.edu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Uzbekistan",
-            "mirrors": [
-                {
-                    "name": "Sharq Telekom",
+        "Uzbekistan": {
+            "mirrors": {
+                "Sharq Telekom": {
                     "mirrors": {
                         "http": "http://ubuntu.uz/ubuntu/",
                         "ftp": "ftp://ubuntu.uz/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } ,
-        {
-            "country": "Viet Nam",
-            "mirrors": [
-                {
-                    "name": "FPT Telecom",
+        "Viet Nam": {
+            "mirrors": {
+                "FPT Telecom": {
                     "mirrors": {
                         "http": "http://mirror-fpt-telecom.fpt.net/ubuntu/",
                         "ftp": "ftp://mirror-fpt-telecom.fpt.net/mirror/ubuntu/"
                     } 
                 }
-            ] 
+            } 
         } 
-    ] 
+    } 
 }
