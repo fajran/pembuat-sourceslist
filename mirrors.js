@@ -34,7 +34,7 @@ function loadReleases() {
 		var code = val.code;
 		var label = data.dist + ' ' + val.ver + ' ' + val.name;
 		var selected = "";
-		if (val.latest == 1) {
+		if (val.selected == 1) {
 			selected = ' selected="selected"';
 		}
 
@@ -48,7 +48,7 @@ function loadComponents() {
 		var label = data.components[code].label;
 		var selected = data.components[code].selected;
 
-		var checked;
+		var checked = '';
 		if (selected == 1) {
 			 checked = ' checked="checked"';
 		}
@@ -63,8 +63,10 @@ function loadExtra() {
 	for (var code in data.extra) {
 		var label = data.extra[code].label;
 		var selected = data.extra[code].selected;
+		console.log(label);
+		console.log(selected);
 
-		var checked;
+		var checked = '';
 		if (selected == 1) {
 			 checked = ' checked="checked"';
 		}
@@ -83,8 +85,8 @@ function loadMirrorsData(data_file) {
 
 function loadMirrors() {
 	$('#country').empty();
-	$('#country').append("<option value='+main'>main repository</option>");
-	$('#country').append("<option value='+other'>other..</option>");
+	$('#country').append("<option value='+main'>Main Server</option>");
+	$('#country').append("<option value='+other'>Other..</option>");
 
 	$('#country').append('<optgroup label="Countries"></optgroup>');
 	var cc = $('#country').find('optgroup');

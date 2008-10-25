@@ -40,30 +40,36 @@
     },
     "components": {
         "main": {
-            "label": "Main - Free software and supported by Ubuntu",
-            "selected": 1
-        },
-        "universe": {
-            "label": "Restricted - Non-free software but supported by Ubuntu",
-            "selected": 1
-        },
-        "multiverse": {
-            "label": "Universe - Free software and supported by community",
+            "label": "Canonical-supported Open Source software (main)",
             "selected": 1
         },
         "restricted": {
-            "label": "Multiverse - Non-free software and supported by community",
+            "label": "Proprietary drivers for devices (restricted)",
+            "selected": 1
+        },
+        "universe": {
+            "label": "Community-maintained Open Source software (universe)",
+            "selected": 1
+        },
+        "multiverse": {
+            "label": "Software restricted by copyright or legal issues (multiverse)",
             "selected": 1
         }
     },
     "extra": {
         "updates": {
-            "label": "Recommended updates",
+            "label": "Recommended updates (updates)",
             "selected": 1
         },
         "security": {
-            "label": "Security/critical updates",
+            "label": "Important security updates (security)",
             "selected": 1
+        },
+        "proposed": {
+            "label": "Pre-released updates (proposed)"
+        },
+        "backports": {
+            "label": "Unsupported updates (backports)"
         }
     }
 }
