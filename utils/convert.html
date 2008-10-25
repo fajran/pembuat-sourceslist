@@ -1,0 +1,119 @@
+<html><head>
+<style type="text/css">
+body {
+	width: 850px;
+	margin: 20px auto;
+	text-align: center;
+}
+textarea {
+	width: 800px;
+	height: 400px;
+}
+button {
+	padding: 10px 20px;
+}
+</style>
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript">
+
+function convert() {
+	var cc = $('#c');
+	var c = console;
+	cc.hide();
+	cc.load('archives.html', null, function() {
+		extractMirrors($('#mirrors_list'));
+	});;
+};
+
+function extractMirrors(tbl) {
+	var trs = tbl.find('tr');
+	var i, len = trs.length;
+	var country = null;
+	var mirrors = [];
+	var mc = null;
+
+	for (i=0; i<len; i++) {
+		var tr = $(trs[i]);
+		if (tr.attr('class') == 'highlighted') {
+			country = tr.find('th[colspan="2"]').text();
+
+			mc = {};
+			mirrors.push(mc);
+			mc.country = country;
+			mc.mirrors = [];
+
+		}
+		else if (tr.attr('class') != 'note') {
+			var tds = tr.find('td');
+			var name = $(tds[0]).find('a').text();
+
+			var methods = {};
+			var cnt = 0;
+			$(tds[1]).find('a').each(function() {
+				var url = $(this).attr('href');
+				var method = $(this).text();
+				methods[method] = url;
+				cnt++;
+			});
+
+			//console.log(country + " - " + name + " = " + cnt);
+			var o = {};
+			o.name = name;
+			o.methods = methods;
+			mc.mirrors.push(o);
+			
+		}
+	}
+
+	toText(mirrors, $('#out'));
+}
+
+function toText(mirrors, target) {
+	var txt = "";
+	txt = '{ "mirrors": { ';
+
+	var i, len = mirrors.length;
+	for (i=0; i<len; i++) {
+
+		var mc = mirrors[i];
+		var mcm = mc.mirrors;
+		txt += '"'+mc.country+'": { ';
+		txt += '"mirrors": {';
+
+		var j, size = mcm.length;
+		for (j=0; j<size; j++) {
+
+			txt += '"'+mcm[j].name+'": { "mirrors": {'
+
+			var mm = mcm[j].methods;
+			var items = []
+			for (var method in mm) {
+				items.push('"'+method+'":"'+mm[method]+'"');
+			}
+			txt += items.join(",");
+			
+			txt += '} }';
+			if (j<size-1) {
+				txt += ", ";
+			}
+		}
+
+		txt += "} } ";
+		if (i<len-1) {
+			txt += ", ";
+		}
+	}
+
+	txt += '} }';
+
+	target.val(txt);
+}
+
+
+</script>
+</head><body>
+
+<p><div id="c"></div><textarea id="out"></textarea></p>
+<p><input type="button" value="Convert" onclick="convert()"/></p>
+
+</body></html>
