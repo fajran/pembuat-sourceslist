@@ -63,8 +63,6 @@ function loadExtra() {
 	for (var code in data.extra) {
 		var label = data.extra[code].label;
 		var selected = data.extra[code].selected;
-		console.log(label);
-		console.log(selected);
 
 		var checked = '';
 		if (selected == 1) {
