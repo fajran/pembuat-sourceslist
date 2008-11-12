@@ -1,13 +1,21 @@
-$(document).ready(function() {
+
+function _(str) {
 	if (langpack == undefined) {
-		return;
+		return str;
 	}
 
+	var t = langpack[str];
+	if (t == undefined) {
+		return str;
+	}
+	else {
+		return t;
+	}
+}
+
+$(document).ready(function() {
 	$('.t').each(function() {
-		var text = $(this).text();
-		var translation = langpack[text];
-		if (translation != undefined) {
-			$(this).text(translation);
-		}
+		var text = $(this).html();
+		$(this).html(_(text));
 	});
 });

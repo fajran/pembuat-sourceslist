@@ -83,10 +83,10 @@ function loadMirrorsData(data_file) {
 
 function loadMirrors() {
 	$('#country').empty();
-	$('#country').append("<option value='+main'>Main Server</option>");
-	$('#country').append("<option value='+other'>Other..</option>");
+	$('#country').append("<option value='+main'>"+_('Main Server')+"</option>");
+	$('#country').append("<option value='+other'>"+_('Other..')+"</option>");
 
-	$('#country').append('<optgroup label="Countries"></optgroup>');
+	$('#country').append('<optgroup label="'+_('Countries')+'"></optgroup>');
 	var cc = $('#country').find('optgroup');
 
 	$.each(mirrors.mirrors, function(key, val) {
