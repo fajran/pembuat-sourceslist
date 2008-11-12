@@ -11,7 +11,7 @@ langpack = {
 	'Generate sources.list': 'Buat sources.list',
 	'e.g.': 'contoh:',
 	'Write the following lines to <code>/etc/apt/sources.list</code> and run <code>sudo apt-get update</code> afterwards.': 'Tulislah baris-baris berikut ini ke dalam <code>/etc/apt/sources.list</code> dan jalankan <code>sudo apt-get update</code> setelah itu.',
-	'x': 'Hak Cipta &copy; 2008',
+	'Copyright &copy; 2008': 'Hak Cipta &copy; 2008',
 	'Indonesian Ubuntu LoCo Team': 'Komunitas Lokal Ubuntu Indonesia',
 	'This script is released under': 'Skrip ini dirilis di bawah',
 	'MIT License': 'Lisensi MIT',
